@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "node-cli-demo": "./bin/node-cli-demo.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc --watch",
+    "lint": "eslint ./src --ext .ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^16.7.5"
+    "@types/node": "^16.7.5",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0"
   },
   "dependencies": {
     "typescript": "^4.4.2"
