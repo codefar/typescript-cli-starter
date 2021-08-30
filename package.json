@@ -1,7 +1,13 @@
 {
-  "name": "ts-node-demo",
+  "name": "typescript-cli-starter",
+  "private": true,
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "typescript",
+    "cli",
+    "starter"
+  ],
   "main": "index.js",
   "bin": {
     "node-cli-demo": "./bin/node-cli-demo.js"
